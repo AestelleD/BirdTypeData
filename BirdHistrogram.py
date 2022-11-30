@@ -6,7 +6,7 @@ import numpy as np
 plt.xlabel('Birds Recorded')
 plt.ylabel('Number of Recordings')
 plt.title("Frequency of Recording Values VS Number of Birds Recorded")
-f = open('data.json')
+f = open('data2.json')
 data = json.load(f)
 xvalues = []
 yvalues = []

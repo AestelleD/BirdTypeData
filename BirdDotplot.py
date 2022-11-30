@@ -6,7 +6,8 @@ import numpy as np
 plt.ylabel('# of Birds')
 plt.xlabel('Date')
 plt.title("Number of Birds Recorded VS Date")
-f = open('data.json')
+d = input("Filename")
+f = open(d + '.json')
 data = json.load(f)
 xvalues = []
 yvalues = []
